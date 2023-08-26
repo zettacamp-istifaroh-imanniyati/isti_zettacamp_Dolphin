@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+
+        nav{
+            background-color: rgb(245, 237, 237);
+        }
+        nav ul li{
+            display: inline-block;
+
+        }
+
+        .nav-brand{
+            margin-right: 40px;
+            font-size: 40px;
+        }
+
+        .nav-item{
+            padding: 6px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        form{
+            border: solid black 1px;
+            border-radius: 10px;
+            margin: auto;
+            width: 400px;
+            padding: 20px;
+
+        }
+
+        label{
+            font-size: 15px;
+        }
+
+        .input-setting{
+            width: 250px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-brand">EduFun</li>
+            <li><a class="nav-item" href="../index.html">Home</a></li>
+            <li><a class="nav-item" href="./HTML/about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="center">EduFun Register Form</h1>
+    <p class="center">Please Full Fill this Form First to be Part of EduFun</p>
+    <form action="">
+        <label for="">Email: </label> <br>
+        <input class="input-setting" type="email" placeholder="ex: edufun@gmail.com" required> <br>
+        <label for="">Name: </label> <br>
+        <input class="input-setting" type="text" placeholder="ex: Jhon" required> <br>
+        <label for="">Phone Number</label> <br>
+        <input class="input-setting" type="number" placeholder="ex: 08899338764525" required><br> <br>
+        <label for="">EduFun Program</label><br>
+        <input type="radio" id="private" name="program" value="one student one mentor">
+        <label for="private">One Student One Mentor</label><br>
+        <input type="radio" id="group" name="program" value="5 student one mentor">
+        <label for="css">5 Student One Mentor</label><br>
+        <input type="radio" id="trial" name="program" value="free trial">
+        <label for="free trial">Free Trial</label> <br> <br>
+        <button clas="center" type="submit"><a href="./profile.html">Submit</a></button>
+    </form>
+    
+</body>
+</html>

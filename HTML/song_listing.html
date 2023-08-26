@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Listing</title>
+    <style>
+
+        nav{
+            background-color: rgb(245, 237, 237);
+        }
+
+        nav ul li{
+            display: inline-block;
+
+        }
+
+        .nav-brand{
+            margin-right: 40px;
+            font-size: 40px;
+        }
+
+        .nav-item{
+            padding: 6px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .img-song-list{
+            width: 100px;
+            height: 70px;
+        }
+
+        table{
+            text-align: center;
+            width: 80%;
+            margin: 0;
+        }
+
+        tr, td, th{
+            padding: 10px;
+        }
+
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-brand">EduFun</li>
+            <li><a class="nav-item" href="profile.html">Profile</a></li>
+            <li><a class="nav-item" href="song_listing.html">Song Listing</a></li>
+            <li><a class="nav-item" href="album_preview.html">Album Preview</a></li>
+        </ul>
+    </nav>
+
+    <h2 class="center">Fafa's fav song list</h2>
+    <table>
+        <th>Image</th>
+        <th>Song Title</th>
+        <th>Duration</th>
+        <th>Artist</th>
+        <th></th>
+
+        <tr>
+            <td><img class="img-song-list" src="../Assets/Img/J rock.png" alt="JRock"></td>
+            <td>Ceria</td>
+            <td>04:00</td>
+            <td>JRock</td>
+            <td>
+                <audio controls>
+                    <source src="../Assets/music/music1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img class="img-song-list" src="../Assets/Img/justin.jpg" alt="Justin Bieber"></td>
+            <td>Ghost</td>
+            <td>03:32</td>
+            <td>Justin Bieber</td>
+            <td>
+                <audio controls>
+                    <source src="../Assets/music/music3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img class="img-song-list" src="../Assets/Img/sheilaon7.jpg" alt="sheilaon7"></td>
+            <td>Dan</td>
+            <td>03:42</td>
+            <td>Sheila On Seven</td>
+            <td>
+                <audio controls>
+                    <source src="../Assets/music/music2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img class="img-song-list" src="../Assets/Img/skinnyfabs.jpg" alt=""></td>
+            <td>Happy</td>
+            <td>03:15</td>
+            <td>SkinnyFabs</td>
+            <td>
+                <audio controls>
+                    <source src="../Assets/music/music4.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

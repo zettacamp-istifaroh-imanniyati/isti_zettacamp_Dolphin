@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+/* css class */
+.center{
+    text-align: center;
+}
+
+.black{
+    background-color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+h1{
+    padding: 20px;
+}
+.container{
+    padding: 30px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 28%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgb(212, 210, 210);
+    padding: 5px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: grey 5px;
+}
+
+.img-card{
+    width: 220px;
+    height: 320px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+div.card:hover{
+    font-size: larger;
+}
+
+.title-card{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.button-card a{
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+footer{
+    height: 60px;
+    padding: 20px;
+}

@@ -1,0 +1,244 @@
+/* Styling global */
+body{
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+nav{
+    background-color: black;
+    height: 10vh;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+li.navbar-brand{
+    color: rgb(230, 13, 13);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+li a.nav-item{
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+footer p{
+    margin: 0;
+}
+
+/* styling index/home page*/
+
+div.container-home{
+    width: 70vw;
+    margin: auto;
+}
+
+div.text-home{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+img.hero-image{
+    width: 400px;
+    height: 450px;
+}
+
+
+/* styling shopping list */
+section.shopping-list{
+    width: 60vw;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(236, 227, 227, 0.7);
+}
+
+.container-shopping-list{
+    box-sizing: border-box;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.container-shopping-list .card{
+    box-sizing: border-box;
+    width: 27%;
+    height: 390px;
+    border: solid rgb(168, 164, 164) 2px;
+    padding: 15px 10px 5px 10px;
+    border-radius: 7px;
+    margin: 0.8rem 5px;
+    text-align: center;
+    box-shadow: rgb(165, 164, 164) 6px 6px;
+}
+
+.container-shopping-list .card:hover{
+    width: 30%;
+    background-color: rgb(226, 220, 220);
+}
+
+.container-shopping-list .img-card{
+    width: 70%;
+    height: 44%;
+}
+
+span.discount{
+    text-decoration: line-through;
+}
+
+span.sup{
+    vertical-align: super;
+}
+
+.title-card{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.price-card{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p.description-card{
+    font-style: 0.8rem;
+}
+
+button{
+    font-weight: bold;
+    font-size: 1.25rem;
+} */
+
+
+/* Styling Add Item */
+div.form{
+    width: 70vw;
+    margin: auto;
+    border: solid black 2px;
+    height: 500px;
+    padding-top: 40px;
+}
+
+div.container-add-item form{
+    text-align: center;
+}
+
+div.container-add-item form input{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+}
+
+div.form form label{
+   margin: 10px; 
+}
+
+
+.img-item{
+    width: 90px;
+    height: 80px;
+}
+
+table{
+    width: 80%;
+    border: 1px solid black;
+    width: 80%;
+    margin:  30px auto;
+   padding: 30px;
+}
+
+.price, .total, .quantity{
+    text-align: center;
+}
+
+
+
+
+/* Styling about us */
+.container-about-us{
+    width: 80%;
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-about-us{
+    width: 50%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+div.about-us{
+   padding: 30px;
+}
+
+/* styling Contact us */
+.container-contact-us{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+}
+
+.img-contact-us{
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.text-contact-us{
+    padding: 30px;
+}
+
+.form-contact-us label {
+    padding: 20px;
+
+}
+
+.button-contact-us{
+    background-color: red;
+}
+
+
+

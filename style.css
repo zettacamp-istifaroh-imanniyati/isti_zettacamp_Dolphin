@@ -1,0 +1,45 @@
+
+*{
+    font-size: 17px;
+}
+
+#h1{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.first-span{
+    font-size: 26px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.second-span{
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: solid green 3px;
+    border-radius: 50%;
+}
+
+.container{
+    text-align: center;
+    width: 56%;
+    margin: auto;
+    background-color: rgb(188, 205, 241);
+    padding: 20px;
+}
+
+.description{
+    margin: auto;
+    width: 86%;
+    text-align: justify;
+    padding: 20px;
+}
